@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hellomvc" />
-        <module name="springmvc_servlet" />
-        <module name="springmvc-annotion" />
-        <module name="ssmbuild" />
+        <module name="springmvc01_servlet" />
+        <module name="springmvc02_hellomvc" />
+        <module name="springmvc03-annotion" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssmbuild" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

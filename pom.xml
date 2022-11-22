@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springmvc_servlet</module>
-        <module>hellomvc</module>
-        <module>springmvc-annotion</module>
+        <module>springmvc01_servlet</module>
+        <module>springmvc02_hellomvc</module>
+        <module>springmvc03-annotion</module>
     </modules>
 
     <properties>
