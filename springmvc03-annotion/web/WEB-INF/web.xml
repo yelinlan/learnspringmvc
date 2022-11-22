@@ -18,12 +18,12 @@
     </servlet-mapping>
 
     <!--SpringMVC配置处理乱码问题-->
-    <!--<filter>
+    <filter>
         <filter-name>encodingFilter</filter-name>
         <filter-class>com.yll.config.EncodingFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>encodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </filter-mapping>-->
+    </filter-mapping>
 </web-app>
